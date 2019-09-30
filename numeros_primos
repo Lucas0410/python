@@ -1,0 +1,6 @@
+n = int(input('primeiro termo: '))
+r = int(input('razao: '))
+decimo = n + (10-1) * r
+for c in range(n, decimo + r, r):
+    print('{}'.format(c), end=' > ')
+print('ACABOU')
